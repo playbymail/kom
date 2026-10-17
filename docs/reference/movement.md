@@ -12,40 +12,40 @@ Movement uses the six direction numbers defined in [world map: adjacency](world-
 
 ## Army movement order
 
-| Field       | Content                                                  |
-|-------------|----------------------------------------------------------|
-| Army        | Army ID                                                  |
-| Mode        | Optional: `7` Pursuit, `8` Cautious, `9` Forced          |
-| Steps       | Up to 12 direction numbers, or for Pursuit a target army ID |
+| Field | Content                                                     |
+|-------|-------------------------------------------------------------|
+| Army  | Army ID                                                     |
+| Mode  | Optional: `7` Pursuit, `8` Cautious, `9` Forced             |
+| Steps | Up to 12 direction numbers, or for Pursuit a target army ID |
 
 Examples from the original:
 
-| Order               | Meaning                                                   |
-|---------------------|-----------------------------------------------------------|
-| `3 1 1 1 1`         | Army 3 moves four hexes north                             |
-| `3 1 6 6 5 5 4`     | North, north-west ×2, south-west ×2, south                |
-| `3 8 1 1 1 1`       | Cautious March four hexes north                           |
-| `3 9 1 1 1 1 1 1 1 1` | Forced March eight hexes north                          |
-| `3 7 263`           | Pursue army 263                                           |
+| Order                 | Meaning                                    |
+|-----------------------|--------------------------------------------|
+| `3 1 1 1 1`           | Army 3 moves four hexes north              |
+| `3 1 6 6 5 5 4`       | North, north-west ×2, south-west ×2, south |
+| `3 8 1 1 1 1`         | Cautious March four hexes north            |
+| `3 9 1 1 1 1 1 1 1 1` | Forced March eight hexes north             |
+| `3 7 263`             | Pursue army 263                            |
 
 ## Movement points
 
-| Property                 | Value                                                        |
-|--------------------------|--------------------------------------------------------------|
-| Points per turn          | About 20 per army, modified by morale                        |
-| Carry-over               | None; unused points are lost                                 |
-| Cost to enter a hex      | Set by the hex's terrain and the army's race (see [races](races.md)) |
-| Insufficient points      | The army stops                                               |
-| Change during the turn   | Orders resolved before movement may raise or lower points    |
+| Property               | Value                                                                |
+|------------------------|----------------------------------------------------------------------|
+| Points per turn        | About 20 per army, modified by morale                                |
+| Carry-over             | None; unused points are lost                                         |
+| Cost to enter a hex    | Set by the hex's terrain and the army's race (see [races](races.md)) |
+| Insufficient points    | The army stops                                                       |
+| Change during the turn | Orders resolved before movement may raise or lower points            |
 
 ### March modes
 
-| Code | Mode     | Points      | Scouting            | Detection by others | Fatigue          |
-|------|----------|-------------|---------------------|---------------------|------------------|
-| —    | Normal   | 100%        | Normal              | Normal              | Normal           |
-| `8`  | Cautious | 60%, rounded | Greatly improved   | Much harder         | Less than normal |
-| `9`  | Forced   | 150%, rounded | Reduced           | Easier              | Considerably more; worse on successive turns |
-| `7`  | Pursuit  | 150%, rounded | As Forced         | As Forced           | As Forced        |
+| Code | Mode     | Points        | Scouting         | Detection by others | Fatigue                                      |
+|------|----------|---------------|------------------|---------------------|----------------------------------------------|
+| —    | Normal   | 100%          | Normal           | Normal              | Normal                                       |
+| `8`  | Cautious | 60%, rounded  | Greatly improved | Much harder         | Less than normal                             |
+| `9`  | Forced   | 150%, rounded | Reduced          | Easier              | Considerably more; worse on successive turns |
+| `7`  | Pursuit  | 150%, rounded | As Forced        | As Forced           | As Forced                                    |
 
 - A Cautious army is more likely to ambush; a Forced army is more likely to be ambushed.
 - Pursuit takes no directions. Each movement round the army steps toward the target's current location.
@@ -90,10 +90,10 @@ The outcome is not guaranteed either way.
 
 ## Water
 
-| Terrain            | Armies                                                      |
-|--------------------|-------------------------------------------------------------|
-| Lake, Sea, Flooded | Cannot enter                                                |
-| Frozen Flooded     | Unknown; the original documents do not mention it |
+| Terrain                 | Armies                                                                                                                                   |
+|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| Lake, Sea, Flooded      | Cannot enter                                                                                                                             |
+| Frozen Flooded          | Unknown; the original documents do not mention it                                                                                        |
 | Frozen Lake, Frozen Sea | 5 points per hex for every race; risk of losing regiments or whole armies, based on size and race (`medocs/docs/sheets/chaos-cometh.md`) |
 
 ## Scouting
@@ -110,9 +110,9 @@ Small armies forage and are barely affected.
 
 ## Individuals
 
-| Method                     | Range or rule                                                              |
-|----------------------------|----------------------------------------------------------------------------|
-| Transfer Individual (`TI`) | Up to 4 hexes, once per turn (`medocs/docs/manual/orders/individuals.md`)  |
+| Method                     | Range or rule                                                                                                                         |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Transfer Individual (`TI`) | Up to 4 hexes, once per turn (`medocs/docs/manual/orders/individuals.md`)                                                             |
 | Go To (Kingdom sheet)      | Crosses water, settlements, and armies; cannot enter volcanoes; risk of death each turn (`medocs/docs/sheets/kingdom-advancement.md`) |
 
 ## Open questions

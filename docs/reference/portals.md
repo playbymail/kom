@@ -9,13 +9,13 @@ From outside, a portal is a wall of unmoving mist that repels intruders by a Pow
 
 ## Rules
 
-| Rule                     | Detail                                                                 |
-|--------------------------|------------------------------------------------------------------------|
-| Entering                 | An army must be shielded from the Power of Suggestion                  |
-| Occupied portal          | An army may not enter a portal held by another player's army; it must attack and destroy it first |
-| Defence                  | An army on a portal during combat cannot be attacked from outside except by a shielded army |
-| Attacking out            | An army on a portal may attack any enemy army or settlement            |
-| Teleport                 | An army that starts the turn on a portal may use the Use Portal order  |
+| Rule            | Detail                                                                                            |
+|-----------------|---------------------------------------------------------------------------------------------------|
+| Entering        | An army must be shielded from the Power of Suggestion                                             |
+| Occupied portal | An army may not enter a portal held by another player's army; it must attack and destroy it first |
+| Defence         | An army on a portal during combat cannot be attacked from outside except by a shielded army       |
+| Attacking out   | An army on a portal may attack any enemy army or settlement                                       |
+| Teleport        | An army that starts the turn on a portal may use the Use Portal order                             |
 
 ### Shielding
 

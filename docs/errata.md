@@ -51,12 +51,15 @@ The other Warlock Lord sheets list all thirteen.
 
 | Variants                                                   | Used here                       |
 |------------------------------------------------------------|---------------------------------|
-| "… of Skar" / "… of Khar"                                   | Khar                            |
+| "Southern Wastelands of Skar" / "… of Khar"                | Southern Wastelands of Khar     |
 | "Golden Savannak"                                          | Golden Savannah                 |
 | "Northern Plains of the Farmer" / "… of the Farner"         | Northern Plains of the Farmer   |
 | A leading "The" present in some places, absent in others   | Never used                      |
 
-"Khar" applies to every region: Plains of Khar, Northern, Western, and Southern Plains of Khar, Wastelands of Khar, and Southern Wastelands of Khar.
+Skar and Khar are different places.
+Skar is the western plains (Plains of Skar and its Northern, Western, and Southern neighbors), home of tribe 31, Horseclans of Skar.
+Khar is the eastern wastelands (Wastelands of Khar, Southern Wastelands of Khar), home of tribe 35, Dark Warriors of Khar.
+Only `medocs/docs/sheets/malkahai-special-report-iv.md` writes "Southern Wastelands of Skar".
 
 **Resolution:** [world map: regions](reference/world-map.md#regions) uses the spellings above.
 
