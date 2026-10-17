@@ -2,8 +2,7 @@
 
 ## Project Overview
 
-This repository is `kom` (module `github.com/playbymail/kom`), a Go implementation of Koyore O'er Ablonar,
-based on The Keys of Medokh (KoM), a play-by-mail fantasy strategy game.
+This repository is `kom` (module `github.com/playbymail/kom`), a Go implementation of Koyore O'er Ablonar, play-by-mail fantasy strategy game.
 The project is at its very start: the only code is the `kom` package's `version.go`.
 
 Licensed AGPL-3.0-or-later.
