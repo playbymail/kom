@@ -116,7 +116,7 @@ The compendium says armies cannot enter lakes or seas.
 ### Proposed movement costs
 
 **Reconstructed, not authoritative.**
-This project wrote the table below to replace the unknown values above.
+This project wrote the tables below to replace the unknown values above.
 Only the frozen lake and sea costs and the closed water hexes come from the original documents.
 
 Each race's costs follow its [terrain preferences](#terrain-preferences), taking the first-named preferred terrain as the race's best:
@@ -137,25 +137,47 @@ The values fit the clues in the original documents:
 - The planned 12-box turncard (`medocs/docs/sheets/army-movement.md`) is filled by a Forced March with a Tracker on best terrain.
 
 Desert is harsh until Chaos Winter arrives (between turns 35 and 55, `medocs/docs/sheets/the-keys-of-power.md`).
-From then on it costs 5 points less.
+From then on it costs 5 points less, and the lakes and seas freeze over (`medocs/docs/sheets/chaos-cometh.md`).
 
-| Race        | Plains | Forest | Mountains | Hills | Forested Hills | Wastelands | Desert | Desert (Chaos Winter) | Lake | Sea | Flooded | Frozen Lake | Frozen Sea | Frozen Flooded |
-|-------------|--------|--------|-----------|-------|----------------|------------|--------|-----------------------|------|-----|---------|-------------|------------|----------------|
-| Humans      | 3      | 5      | 8         | 5     | 5              | 4          | 10     | 5                     | —    | —   | —       | 5           | 5          | 5              |
-| Elves       | 5      | 3      | 5         | 5     | 4              | 8          | 14     | 9                     | —    | —   | —       | 5           | 5          | 5              |
-| Dwarves     | 5      | 8      | 3         | 4     | 5              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
-| Orcs        | 5      | 8      | 4         | 3     | 5              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
-| Kobolds     | 8      | 5      | 4         | 5     | 5              | 3          | 9      | 4                     | —    | —   | —       | 5           | 5          | 5              |
-| Halflings   | 5      | 4      | 8         | 5     | 3              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
-| Centaurs    | 3      | 5      | 8         | 5     | 5              | 4          | 10     | 5                     | —    | —   | —       | 5           | 5          | 5              |
-| Drow        | 5      | 3      | 5         | 8     | 4              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
-| Dryads      | 5      | 4      | 5         | 5     | 3              | 8          | 14     | 9                     | —    | —   | —       | 5           | 5          | 5              |
-| Minotaurs   | 4      | 5      | 5         | 5     | 8              | 3          | 9      | 4                     | —    | —   | —       | 5           | 5          | 5              |
-| Ogres       | 5      | 8      | 4         | 3     | 5              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
-| Rock Trolls | 8      | 5      | 3         | 4     | 5              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
-| Mazdrakians | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?                     | —    | —   | —       | 5           | 5          | ?              |
-| Curazck     | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?                     | —    | —   | —       | 5           | 5          | ?              |
-| Malkahai    | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?                     | —    | —   | —       | 5           | 5          | ?              |
+#### Before Chaos Winter
+
+| Race        | Plains | Forest | Mountains | Hills | Forested Hills | Wastelands | Desert | Lake | Sea | Flooded |
+|-------------|--------|--------|-----------|-------|----------------|------------|--------|------|-----|---------|
+| Humans      | 3      | 5      | 8         | 5     | 5              | 4          | 10     | —    | —   | —       |
+| Elves       | 5      | 3      | 5         | 5     | 4              | 8          | 14     | —    | —   | —       |
+| Dwarves     | 5      | 8      | 3         | 4     | 5              | 5          | 11     | —    | —   | —       |
+| Orcs        | 5      | 8      | 4         | 3     | 5              | 5          | 11     | —    | —   | —       |
+| Kobolds     | 8      | 5      | 4         | 5     | 5              | 3          | 9      | —    | —   | —       |
+| Halflings   | 5      | 4      | 8         | 5     | 3              | 5          | 11     | —    | —   | —       |
+| Centaurs    | 3      | 5      | 8         | 5     | 5              | 4          | 10     | —    | —   | —       |
+| Drow        | 5      | 3      | 5         | 8     | 4              | 5          | 11     | —    | —   | —       |
+| Dryads      | 5      | 4      | 5         | 5     | 3              | 8          | 14     | —    | —   | —       |
+| Minotaurs   | 4      | 5      | 5         | 5     | 8              | 3          | 9      | —    | —   | —       |
+| Ogres       | 5      | 8      | 4         | 3     | 5              | 5          | 11     | —    | —   | —       |
+| Rock Trolls | 8      | 5      | 3         | 4     | 5              | 5          | 11     | —    | —   | —       |
+| Mazdrakians | ?      | ?      | ?         | ?     | ?              | ?          | ?      | —    | —   | —       |
+| Curazck     | ?      | ?      | ?         | ?     | ?              | ?          | ?      | —    | —   | —       |
+| Malkahai    | ?      | ?      | ?         | ?     | ?              | ?          | ?      | —    | —   | —       |
+
+#### During Chaos Winter
+
+| Race        | Plains | Forest | Mountains | Hills | Forested Hills | Wastelands | Desert | Frozen Lake | Frozen Sea | Frozen Flooded |
+|-------------|--------|--------|-----------|-------|----------------|------------|--------|-------------|------------|----------------|
+| Humans      | 3      | 5      | 8         | 5     | 5              | 4          | 5      | 5           | 5          | 5              |
+| Elves       | 5      | 3      | 5         | 5     | 4              | 8          | 9      | 5           | 5          | 5              |
+| Dwarves     | 5      | 8      | 3         | 4     | 5              | 5          | 6      | 5           | 5          | 5              |
+| Orcs        | 5      | 8      | 4         | 3     | 5              | 5          | 6      | 5           | 5          | 5              |
+| Kobolds     | 8      | 5      | 4         | 5     | 5              | 3          | 4      | 5           | 5          | 5              |
+| Halflings   | 5      | 4      | 8         | 5     | 3              | 5          | 6      | 5           | 5          | 5              |
+| Centaurs    | 3      | 5      | 8         | 5     | 5              | 4          | 5      | 5           | 5          | 5              |
+| Drow        | 5      | 3      | 5         | 8     | 4              | 5          | 6      | 5           | 5          | 5              |
+| Dryads      | 5      | 4      | 5         | 5     | 3              | 8          | 9      | 5           | 5          | 5              |
+| Minotaurs   | 4      | 5      | 5         | 5     | 8              | 3          | 4      | 5           | 5          | 5              |
+| Ogres       | 5      | 8      | 4         | 3     | 5              | 5          | 6      | 5           | 5          | 5              |
+| Rock Trolls | 8      | 5      | 3         | 4     | 5              | 5          | 6      | 5           | 5          | 5              |
+| Mazdrakians | ?      | ?      | ?         | ?     | ?              | ?          | ?      | 5           | 5          | ?              |
+| Curazck     | ?      | ?      | ?         | ?     | ?              | ?          | ?      | 5           | 5          | ?              |
+| Malkahai    | ?      | ?      | ?         | ?     | ?              | ?          | ?      | 5           | 5          | ?              |
 
 `—` means an army cannot enter the hex.
 
