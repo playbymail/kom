@@ -46,10 +46,10 @@ The Blood Guard are not a race.
 They are fanatical warrior-priest cults, one for each of the six Lesser Gods, whose members come from the various races (`medocs/docs/sheets/religeon.md`).
 They gather at Shrines dedicated to their God when the Shrine's tribe has that God as its Creator; for example, Elven Blood Guard muster at Elven Shrines dedicated to Elvirius.
 
-| Name               | Members                                                   |
-|--------------------|-----------------------------------------------------------|
-| Blood Guard        | Members of the various races, by cult                     |
-| Chaos Blood Guard  | Undead Mazdrakians (`medocs/docs/sheets/embracing-mazdrak.md`) |
+| Name              | Members                                                        |
+|-------------------|----------------------------------------------------------------|
+| Blood Guard       | Members of the various races, by cult                          |
+| Chaos Blood Guard | Undead Mazdrakians (`medocs/docs/sheets/embracing-mazdrak.md`) |
 
 The compendium's movement table lists Blood Guard as a row alongside the races.
 
@@ -73,16 +73,17 @@ The sheets describe mercenary units; the same preferences apply to the tribal ra
 | Ogres       | Hills, Mountains           | Forest          |
 | Rock Trolls | Mountains, Hills           | Plains          |
 
-The sheets' comparisons name the strongest tribal race in each common terrain:
+The sheets' comparisons name the strongest tribal race in each common terrain.
+Regions is the number of regions with that [default terrain](world-map.md#regions).
 
-| Terrain        | Strongest tribal race |
-|----------------|-----------------------|
-| Plains         | Humans                |
-| Forest         | Elves                 |
-| Mountains      | Dwarves               |
-| Hills          | Orcs                  |
-| Forested Hills | Halflings             |
-| Wastelands     | Kobolds               |
+| Terrain        | Strongest tribal race | Regions |
+|----------------|-----------------------|---------|
+| Plains         | Humans                | 27      |
+| Forest         | Elves                 | 13      |
+| Mountains      | Dwarves               | 16      |
+| Hills          | Orcs                  | 15      |
+| Forested Hills | Halflings             | 7       |
+| Wastelands     | Kobolds               | 18      |
 
 ## Movement costs
 
