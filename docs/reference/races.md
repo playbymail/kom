@@ -113,7 +113,58 @@ Frozen lake and sea costs are from `medocs/docs/sheets/chaos-cometh.md`, which s
 It does not mention frozen flooded hexes.
 The compendium says armies cannot enter lakes or seas.
 
+### Proposed movement costs
+
+**Reconstructed, not authoritative.**
+This project wrote the table below to replace the unknown values above.
+Only the frozen lake and sea costs and the closed water hexes come from the original documents.
+
+Each race's costs follow its [terrain preferences](#terrain-preferences), taking the first-named preferred terrain as the race's best:
+
+| Terrain for the race | Cost                                            |
+|----------------------|-------------------------------------------------|
+| Best                 | 3                                               |
+| Second               | 4                                               |
+| Neutral              | 5                                               |
+| Despised             | 8                                               |
+| Desert               | Wastelands cost + 1, plus 5 before Chaos Winter |
+
+The values fit the clues in the original documents:
+
+- Frozen water, at 5 for every race, slows the "quicker races" (`medocs/docs/sheets/chaos-cometh.md`); every race's best and second terrain cost less.
+- Trackers halve costs to a minimum of 2 (see [movement: trackers](movement.md#trackers)), so the minimum applies on a race's best terrain.
+- The compendium's example Forced March covers 8 hexes, about 3.75 points per hex.
+- The planned 12-box turncard (`medocs/docs/sheets/army-movement.md`) is filled by a Forced March with a Tracker on best terrain.
+
+Desert is harsh until Chaos Winter arrives (between turns 35 and 55, `medocs/docs/sheets/the-keys-of-power.md`).
+From then on it costs 5 points less.
+
+| Race        | Plains | Forest | Mountains | Hills | Forested Hills | Wastelands | Desert | Desert (Chaos Winter) | Lake | Sea | Flooded | Frozen Lake | Frozen Sea | Frozen Flooded |
+|-------------|--------|--------|-----------|-------|----------------|------------|--------|-----------------------|------|-----|---------|-------------|------------|----------------|
+| Humans      | 3      | 5      | 8         | 5     | 5              | 4          | 10     | 5                     | —    | —   | —       | 5           | 5          | 5              |
+| Elves       | 5      | 3      | 5         | 5     | 4              | 8          | 14     | 9                     | —    | —   | —       | 5           | 5          | 5              |
+| Dwarves     | 5      | 8      | 3         | 4     | 5              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
+| Orcs        | 5      | 8      | 4         | 3     | 5              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
+| Kobolds     | 8      | 5      | 4         | 5     | 5              | 3          | 9      | 4                     | —    | —   | —       | 5           | 5          | 5              |
+| Halflings   | 5      | 4      | 8         | 5     | 3              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
+| Centaurs    | 3      | 5      | 8         | 5     | 5              | 4          | 10     | 5                     | —    | —   | —       | 5           | 5          | 5              |
+| Drow        | 5      | 3      | 5         | 8     | 4              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
+| Dryads      | 5      | 4      | 5         | 5     | 3              | 8          | 14     | 9                     | —    | —   | —       | 5           | 5          | 5              |
+| Minotaurs   | 4      | 5      | 5         | 5     | 8              | 3          | 9      | 4                     | —    | —   | —       | 5           | 5          | 5              |
+| Ogres       | 5      | 8      | 4         | 3     | 5              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
+| Rock Trolls | 8      | 5      | 3         | 4     | 5              | 5          | 11     | 6                     | —    | —   | —       | 5           | 5          | 5              |
+| Mazdrakians | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?                     | —    | —   | —       | 5           | 5          | ?              |
+| Curazck     | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?                     | —    | —   | —       | 5           | 5          | ?              |
+| Malkahai    | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?                     | —    | —   | —       | 5           | 5          | ?              |
+
+`—` means an army cannot enter the hex.
+
+- Frozen Flooded hexes cost the same as frozen lakes and seas.
+- Blood Guard have no row of their own: a Blood Guard unit uses the row of its members' race.
+- Mazdrakians, Curazck, and Malkahai have no known terrain preferences, so their costs remain unknown.
+
 ## Open questions
 
-- Movement costs for every race and terrain.
+- Movement costs for Mazdrakians, Curazck, and Malkahai.
+- Whether an army of mixed races moves at the pace of its slowest troops; the mercenary sheets say mercenaries "rarely will … slow down any army they're attached to".
 - Whether Babulska need movement costs; they are nomadic and have no armies in the documents.

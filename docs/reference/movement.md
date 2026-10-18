@@ -55,6 +55,7 @@ Examples from the original:
 ### Trackers
 
 A Tracker halves the movement cost of terrain it specialises in, to a minimum of 2 points per hex.
+The original does not say how to round an odd cost; this project rounds up, so 5 becomes 3.
 A Master Ranger counts as a Tracker in all six common terrain types.
 
 ## Movement rounds
@@ -117,9 +118,9 @@ Small armies forage and are barely affected.
 
 ## Open questions
 
-- Movement cost for each race and terrain; the original Race Reference Cards are lost.
+- Movement cost for each race and terrain; the original Race Reference Cards are lost. This project proposes costs in [races: proposed movement costs](races.md#proposed-movement-costs).
 - Which terrain types each race may enter at all.
 - Whether frozen lakes and seas, and their losses, are kept.
-- Movement cost and risk for Frozen Flooded hexes.
+- Risk for Frozen Flooded hexes; the proposed cost is 5, as for frozen lakes and seas.
 - How Pursuit picks a step when several directions are equally close.
 - Whether the "between" and overwhelming-force decisions are random, and on what inputs.
