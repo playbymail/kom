@@ -54,7 +54,14 @@ The other Warlock Lord sheets list all thirteen.
 | "Southern Wastelands of Skar" / "… of Khar"              | Southern Wastelands of Khar   |
 | "Golden Savannak"                                        | Golden Savannah               |
 | "Northern Plains of the Farmer" / "… of the Farner"      | Northern Plains of the Farmer |
+| "Balziboa Savannah"                                      | Balziboah Savannah            |
+| "Sacred Wood"                                            | Sacred Woods                  |
+| "Lowlands of the Bachural"                               | Lowlands of the Bachurai      |
+| "Northern High Reaches"                                  | Northern Highreaches          |
+| "Riverrun Forest"                                        | Riverrun Forests              |
 | A leading "The" present in some places, absent in others | Never used                    |
+
+"Silverdale" in the Malkahai reports is taken to be Silverdale (4,9), the exact match, not Silverdale Forestlands (4,8).
 
 Skar and Khar are different places.
 Skar is the western plains (Plains of Skar and its Northern, Western, and Southern neighbors), home of tribe 31, Horseclans of Skar.

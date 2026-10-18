@@ -2,7 +2,7 @@
 
 The world map of Medokh's World: its size, coordinate frame, hex geometry, regions, terrain, and features.
 
-Related references: [movement](movement.md), [portals](portals.md), [races](races.md).
+Related references: [movement](movement.md), [portals](portals.md), [races](races.md), [settlements](settlements.md).
 
 ## Dimensions
 
@@ -295,12 +295,12 @@ Movement cost by terrain and race is in [movement](movement.md) and [races](race
 A feature sits on a hex in addition to its terrain.
 Features are not terrain types, and every hex with a feature still has a terrain type.
 
-| Feature    | Notes                                                           |
-|------------|-----------------------------------------------------------------|
-| Volcano    | Lethal heat; see [movement](movement.md). Usually on Wastelands |
-| Portal     | 13 exist; see [portals](portals.md)                             |
-| Ruin       | An ancient ruin that can be explored                            |
-| Settlement | A town, city, fort, shrine, gem mine, or wizard's tower         |
+| Feature    | Notes                                                                                      |
+|------------|--------------------------------------------------------------------------------------------|
+| Volcano    | Lethal heat; see [movement](movement.md). Usually on Wastelands                            |
+| Portal     | 13 exist; see [portals](portals.md)                                                        |
+| Ruin       | An ancient ruin that can be explored; see [settlements](settlements.md#ruins)              |
+| Settlement | A town, city, fort, shrine, gem mine, or wizard's tower; see [settlements](settlements.md) |
 
 In the Worldographer export, a volcano hex uses the Badlands terrain tile.
 "Badlands" is only the Worldographer tile name; the game terrain is Wastelands.
