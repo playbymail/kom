@@ -91,11 +91,11 @@ The outcome is not guaranteed either way.
 
 ## Water
 
-| Terrain                 | Armies                                                                                                                                   |
-|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| Lake, Sea, Flooded      | Cannot enter                                                                                                                             |
-| Frozen Flooded          | Unknown; the original documents do not mention it                                                                                        |
-| Frozen Lake, Frozen Sea | 5 points per hex for every race; risk of losing regiments or whole armies, based on size and race (`medocs/docs/sheets/chaos-cometh.md`) |
+| Terrain                 | Armies                                                                                                                                                                       |
+|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Lake, Sea, Flooded      | Cannot enter                                                                                                                                                                 |
+| Frozen Lake, Frozen Sea | 5 points per hex for every race; risk of losing regiments or whole armies, based on size and race (`medocs/docs/sheets/chaos-cometh.md`)                                     |
+| Frozen Flooded          | Not in the original documents; this project proposes 5 points per hex, as for frozen lakes and seas (see [races: proposed movement costs](races.md#proposed-movement-costs)) |
 
 ## Scouting
 

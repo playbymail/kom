@@ -87,36 +87,14 @@ Regions is the number of regions with that [default terrain](world-map.md#region
 
 ## Movement costs
 
-Movement points to enter one hex, by race and terrain.
-All values are unknown.
+**Reconstructed, not authoritative.**
 
-| Race        | Plains | Forest | Mountains | Hills | Forested Hills | Wastelands | Desert | Lake | Sea | Flooded | Frozen Lake | Frozen Sea | Frozen Flooded |
-|-------------|--------|--------|-----------|-------|----------------|------------|--------|------|-----|---------|-------------|------------|----------------|
-| Humans      | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Elves       | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Dwarves     | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Orcs        | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Kobolds     | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Halflings   | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Centaurs    | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Drow        | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Dryads      | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Minotaurs   | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Ogres       | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Rock Trolls | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Mazdrakians | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Blood Guard | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Curazck     | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
-| Malkahai    | ?      | ?      | ?         | ?     | ?              | ?          | ?      | ?    | ?   | ?       | 5           | 5          | ?              |
+Movement points to enter one hex, by race and terrain.
 
 Frozen lake and sea costs are from `medocs/docs/sheets/chaos-cometh.md`, which sets 5 points for every race.
 It does not mention frozen flooded hexes.
 The compendium says armies cannot enter lakes or seas.
 
-### Proposed movement costs
-
-**Reconstructed, not authoritative.**
-This project wrote the tables below to replace the unknown values above.
 Only the frozen lake and sea costs and the closed water hexes come from the original documents.
 
 Each race's costs follow its [terrain preferences](#terrain-preferences), taking the first-named preferred terrain as the race's best:
